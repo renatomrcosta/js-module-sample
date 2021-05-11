@@ -1,4 +1,5 @@
 
+import DefaultStuff from "./es2015_module"
 import * as MyModule from "./es2015_module"
 import { SomeClass, someLambda, bananas } from "./es2015_module"
 
@@ -8,3 +9,4 @@ MyModule.bananas()
 bananas()
 MyModule.someLambda()
 someLambda()
+DefaultStuff()
