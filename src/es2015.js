@@ -1,7 +1,7 @@
 
-import DefaultStuff from "./es2015_module"
-import * as MyModule from "./es2015_module"
-import { SomeClass, someLambda, bananas } from "./es2015_module"
+import DefaultStuff from "./es2015_module.mjs"
+import * as MyModule from "./es2015_module.mjs"
+import { SomeClass, someLambda, bananas } from "./es2015_module.mjs"
 
 console.log("look at that nice module import")
 console.log({MyModule})
