@@ -2,15 +2,20 @@
   "name": "js-module-sample",
   "version": "1.0.0",
   "main": "main.js",
-  "files": ["src/*.{js,json}"],
+  "files": [
+    "src/*.{js,json}"
+  ],
   "scripts": {
     "es4": "node src/es4.js",
     "es2015": "node src/es2015.js",
     "test": "jest"
   },
-  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }
